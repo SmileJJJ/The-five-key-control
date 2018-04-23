@@ -1,0 +1,123 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[DebugChecksum]
+Checksum=1617971841
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=0
+[array_types]
+Fmt0=u8[20]	4	0
+Fmt1=u8[256]	4	0
+Fmt2=u8[3]	4	0
+Fmt3=u8[4]	4	0
+[watch_formats]
+Fmt0={W}1:RecAddr	4	0
+Fmt1={W}1:RecData	4	0
+Fmt2={W}1:cmd	4	0
+Fmt3={W}1:cnt	3	0
+Fmt4={W}1:dataGet	4	0
+Fmt5={W}1:dataSend	4	0
+Fmt6={W}1:dataSend2	4	0
+Fmt7={W}1:reg1	4	0
+Fmt8={W}1:status	4	0
+Fmt9={W}1:uidSum	4	0
+Fmt10={W}42:ADArry	4	2
+Fmt11={W}42:IR_Flag	4	0
+Fmt12={W}42:KEY_NUM	4	0
+Fmt13={W}42:RX_buffer	4	7
+Fmt14={W}42:RecData	4	0
+Fmt15={W}42:TIME_NUM	4	0
+Fmt16={W}42:TX_buffer	4	7
+Fmt17={W}42:getAddr	4	0
+Fmt18={W}42:longpressCmd	3	0
+Fmt19={W}42:status	4	0
+Fmt20={W}42:uidSum	4	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{}.105.1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{}.558.3" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{}.703.3" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "0x0093C3" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{}.567.3" 0 0 0 0 "" 0 ""
+Bp5=_ "STD_CODE" "{$PROJ_DIR$\..\APP}.8.5" 0 0 0 0 "" 0 ""
+Bp6=_ "STD_CODE" "{}.442.2" 0 0 0 0 "" 0 ""
+Bp7=_ "STD_CODE" "{}.154.54" 0 0 0 0 "" 0 ""
+Bp8=_ "STD_CODE" "{$PROJ_DIR$\..\APP\timer.c}.11.4" 0 0 0 0 "" 0 ""
+Bp9=_ "STD_CODE" "0x008080" 0 0 0 0 "" 0 ""
+Count=10
+[Aliases]
+A0=_ "C:\Users\Administrator\Desktop\炫美羚无线收发\Libraries\src\stm8s_gpio.c" "E:\周坤\洲际\程序\宣美琳\炫美羚无线收发\Libraries\src\stm8s_gpio.c"
+A1=_ "C:\Users\Administrator\Desktop\炫美羚无线收发\Libraries\src\stm8s_tim1.c" "E:\周坤\洲际\程序\宣美琳\炫美羚无线收发\Libraries\src\stm8s_tim1.c"
+A2=_ "C:\Users\Administrator\Desktop\炫美羚无线收发\Libraries\src\stm8s_tim2.c" "E:\周坤\洲际\程序\宣美琳\炫美羚无线收发\Libraries\src\stm8s_tim2.c"
+A3=_ "E:\周坤\洲际\程序\宣美琳\炫美羚无线收发\APP\main.c" "F:\周坤\洲际\程序\宣美琳\炫美羚无线收发\APP\main.c"
+A4=_ "E:\周坤\洲际\程序\宣美琳\炫美羚无线收发\Libraries\src\stm8s_adc1.c" ""
+A5=_ "E:\周坤\洲际\程序\宣美琳\炫美羚无线收发\Libraries\src\stm8s_flash.c" ""
+A6=_ "E:\周坤\洲际\程序\宣美琳\炫美羚无线收发\Libraries\src\stm8s_gpio.c" "C:\Users\Administrator\Desktop\炫美羚无线收发-红外\Libraries\src\stm8s_gpio.c"
+A7=_ "E:\周坤\洲际\程序\宣美琳\炫美羚无线收发\Libraries\src\stm8s_tim1.c" ""
+A8=_ "E:\周坤\洲际\程序\宣美琳\炫美羚无线收发\Libraries\src\stm8s_tim2.c" ""
+A9=_ "E:\周坤\洲际\程序\宣美琳\炫美羚无线收发\Libraries\src\stm8s_uart1.c" ""
+A10=_ "F:\stm8\STM8 iar\Libraries\src\stm8s_awu.c" ""
+A11=_ "F:\stm8\STM8 iar\Libraries\src\stm8s_clk.c" "F:\芯片资料\stm8\STM8 iar\Libraries\src\stm8s_clk.c"
+A12=_ "F:\stm8\STM8 iar\Libraries\src\stm8s_gpio.c" ""
+A13=_ "F:\周坤\洲际\程序\恒昌红外\STM8 iar\APP\main.c" "E:\周坤\洲际\程序\恒昌红外\STM8 iar\APP\main.c"
+A14=_ "F:\周坤\洲际\程序\恒昌红外\STM8 iar\Libraries\src\stm8s_exti.c" ""
+A15=_ "F:\周坤\洲际\程序\恒昌红外\STM8 iar\Libraries\src\stm8s_gpio.c" ""
+A16=_ "F:\周坤\洲际\程序\恒昌红外\STM8 iar\Libraries\src\stm8s_tim1.c" ""
+A17=_ "F:\周坤\洲际\程序\恒昌红外\STM8 iar\Libraries\src\stm8s_tim2.c" ""
+A18=_ "G:\宁波大学\cj125程序\STM8 iar\APP\spi.c" "F:\周坤\宁波大学\cj125程序\STM8 iar\APP\spi.c"
+A19=_ "G:\汐陌夏初\洲际信息\炫美羚\红外方案\程序\炫美羚无线收发 - 20161219\APP\main.c" ""
+A20=_ "G:\芯片资料\stm8\STM8 iar\Libraries\src\stm8s_clk.c" "F:\周坤\宁波大学\cj125程序\STM8 iar\Libraries\src\stm8s_clk.c"
+A21=_ "G:\芯片资料\stm8\STM8 iar\Libraries\src\stm8s_gpio.c" "F:\周坤\宁波大学\cj125程序\STM8 iar\Libraries\src\stm8s_gpio.c"
+A22=_ "G:\芯片资料\stm8\STM8 iar\Libraries\src\stm8s_tim1.c" "F:\周坤\宁波大学\cj125程序\STM8 iar\Libraries\src\stm8s_tim1.c"
+A23=_ "G:\芯片资料\stm8\STM8 iar\Libraries\src\stm8s_tim2.c" ""
+A24=_ "G:\芯片资料\stm8\STM8 iar\Libraries\src\stm8s_uart1.c" "F:\周坤\宁波大学\cj125程序\STM8 iar\Libraries\src\stm8s_uart1.c"
+Count=25
+SuppressDialog=1
+[DebuggerSettings]
+DisableInterruptsWhenStepping=1
